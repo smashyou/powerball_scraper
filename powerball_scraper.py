@@ -234,8 +234,8 @@ def scrape_powerball():
 def main():
     records = scrape_powerball()
     df = pd.DataFrame(records, columns=["Draw Date", "White Balls", "Powerball", "Jackpot"])
-    df.to_csv("lottery_winning_numbers.csv", index=False)
-    print(f"[INFO] Total records scraped: {len(df)}. Saved to lottery_winning_numbers.csv.")
+    df.to_csv("powerball_winning_numbers.csv", index=False)
+    print(f"[INFO] Total records scraped: {len(df)}. Saved to powerball_winning_numbers.csv.")
 
 
 if __name__ == "__main__":
