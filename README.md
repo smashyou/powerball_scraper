@@ -145,5 +145,3 @@ This project is open-source and available under the MIT License.
 5. **Code Overview**: Summarizes the key functions and their roles.
 6. **Script Details**: Explains the imports, user agents, scraping logic, and error handling.
 7. **Notes**: Includes important considerations like anti-bot measures and compliance.
-
-This consolidated `README.md` file provides a complete guide to understanding, setting up, and using the Lottery Scraper script. Let me know if you need further adjustments!
