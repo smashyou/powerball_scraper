@@ -1,10 +1,10 @@
-# Lottery Scraper
+# Powerball Scraper
 
-This Python script scrapes **Powerball** and **Mega Millions** lottery results from [www.usamega.com](https://www.usamega.com). It extracts the following information:
+This Python script scrapes **Powerball** lottery results from [www.usamega.com](https://www.usamega.com). It extracts the following information:
 
 - **Draw Date**
 - **Winning Numbers (White Balls)**
-- **Powerball/Mega Ball**
+- **Powerball/Red Ball**
 - **Jackpot Amount**
 
 The scraped data is saved to a `.csv` file for further analysis or record-keeping.
@@ -45,19 +45,19 @@ pip install pandas beautifulsoup4 selenium undetected-chromedriver webdriver-man
 2. **Run the Script**:
    - Execute the script using Python:
      ```bash
-     python lottery_scraper.py
+     python powerball_scraper.py
      ```
 
 3. **Output**:
-   - The script will scrape the data and save it to a `.csv` file named `lottery_winning_numbers.csv`.
+   - The script will scrape the data and save it to a `.csv` file named `powerball_winning_numbers.csv`.
 
 ---
 
 ## Example Output
 The script generates a `.csv` file with the following columns:
-- **Draw Date**: The date of the lottery draw.
+- **Draw Date**: The date of the Powerball draw.
 - **White Balls**: The winning white ball numbers.
-- **Powerball/Mega Ball**: The winning Powerball or Mega Ball number.
+- **Powerball**: The winning Powerball number.
 - **Jackpot**: The jackpot amount for the draw.
 
 Example `.csv` output:
@@ -107,7 +107,7 @@ USER_AGENTS = [
 ```
 
 ### **Scraping Logic**
-- The script navigates through multiple pages of lottery results.
+- The script navigates through multiple pages of Powerball results.
 - It extracts the draw date, winning numbers, and jackpot amount.
 - Results older than 5 years are ignored.
 
