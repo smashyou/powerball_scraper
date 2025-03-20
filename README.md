@@ -1,7 +1,3 @@
-Here’s the consolidated `README.md` file that combines all the information from the previous responses into one comprehensive document:
-
----
-
 ```markdown
 # Lottery Scraper
 
