@@ -28,7 +28,7 @@ The scraped data is saved to a `.csv` file for further analysis or record-keepin
 Install the required libraries using `pip`:
 ```bash
 pip install pandas beautifulsoup4 selenium undetected-chromedriver webdriver-manager
-
+```
 
 - `pandas`: For organizing and exporting data to a `.csv` file.
 - `beautifulsoup4`: For parsing HTML and extracting data.
