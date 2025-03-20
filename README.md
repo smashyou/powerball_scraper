@@ -132,15 +132,3 @@ USER_AGENTS = [
 
 ## License
 This project is open-source and available under the MIT License.
-```
-
----
-
-### Key Sections in the `README.md`:
-1. **Overview**: Explains the purpose and features of the script.
-2. **Requirements**: Lists Python 3.11 and all necessary libraries.
-3. **Usage Instructions**: Provides step-by-step instructions for running the script.
-4. **Example Output**: Describes the `.csv` file format and example output.
-5. **Code Overview**: Summarizes the key functions and their roles.
-6. **Script Details**: Explains the imports, user agents, scraping logic, and error handling.
-7. **Notes**: Includes important considerations like anti-bot measures and compliance.
