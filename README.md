@@ -42,19 +42,13 @@ pip install pandas beautifulsoup4 selenium undetected-chromedriver webdriver-man
 1. **Clone or Download the Script**:
    - Download the script or clone the repository to your local machine.
 
-2. **Install Dependencies**:
-   - Run the following command to install the required libraries:
-     ```bash
-     pip install -r requirements.txt
-     ```
-
-3. **Run the Script**:
+2. **Run the Script**:
    - Execute the script using Python:
      ```bash
      python lottery_scraper.py
      ```
 
-4. **Output**:
+3. **Output**:
    - The script will scrape the data and save it to a `.csv` file named `lottery_winning_numbers.csv`.
 
 ---
