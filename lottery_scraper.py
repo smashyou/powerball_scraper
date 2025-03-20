@@ -67,7 +67,7 @@ def get_driver():
     else:
         driver = uc.Chrome(options=options)
 
-    # Set page load timeout: the driver will wait up to 180s for a page to load
+    # Set page load timeout: the driver will wait up to 300s for a page to load
     driver.set_page_load_timeout(300)
 
     return driver
